@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/convidado/clk7s4tsl02tu01p71yt9hnjt',
-    accessToken: 'pk.eyJ1IjoiY29udmlkYWRvIiwiYSI6ImNqZ2wzYWVuMDE2cm8zM284cm4wZ25uc2wifQ.d8Y_NpxazV3JB68v7qmGtg',
+    style: 'mapbox://styles/convidado/clo2gxps0000601qvc4r80src',
+    accessToken: 'sk.eyJ1IjoiY29udmlkYWRvIiwiYSI6ImNsbjZoYmp2ODBkYWkybG8xNmFzMmlyb3YifQ.KVhBazY7cPKThY_KrJ9UXQ',
     showMarkers: false,
     markerColor: '#3FB1CE',
     projection: 'mercator',
@@ -29,98 +29,8 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'Satellite imagery',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network tunnels',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network surface',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network bridges',
-                    opacity: 1
-                },
-                {
-                    layer: 'Administrative boundaries',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network',
-                    opacity: 1
-                },
-                {
-                    layer: 'Natural features',
-                    opacity: 1
-                },
-                {
-                    layer: 'Point of interest labels',
-                    opacity: 1
-                },
-                {
-                    layer: 'Place labels',
-                    opacity: 1
-                },
-                {
-                    layer: 'states-legal-amazon',
-                    opacity: 1
-                },
-                {
-                    layer: 'sitios_areas_florestais',
-                    opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'Satellite imagery',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network tunnels',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network surface',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network bridges',
-                    opacity: 1
-                },
-                {
-                    layer: 'Administrative boundaries',
-                    opacity: 1
-                },
-                {
-                    layer: 'Road network',
-                    opacity: 1
-                },
-                {
-                    layer: 'Natural features',
-                    opacity: 1
-                },
-                {
-                    layer: 'Point of interest labels',
-                    opacity: 1
-                },
-                {
-                    layer: 'Place labels',
-                    opacity: 1
-                },
-                {
-                    layer: 'states-legal-amazon',
-                    opacity: 1
-                },
-                {
-                    layer: 'sitios_areas_florestais',
-                    opacity:1
-                }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'second-identifier',
