@@ -49,14 +49,14 @@ var config = {
             id: 'second-identifier',
             alignment: 'right',
             hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
+            title: 'Sitios em unidades de conservação com desmatamento',
+            image: '',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
+                center: [-59.19000, -5.93000],
+                zoom: 4.11,
                 pitch: 60,
-                bearing: -43.2,
+                bearing: 0
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -75,13 +75,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Third Title',
-            image: './path/to/image/source.png',
+            image: '',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [6.15116, 46.20595],
-                zoom: 12.52,
-                pitch: 8.01,
-                bearing: 0.00
+                center: [-59.19000, -5.93000],
+                zoom: 4.11,
+                pitch: 60,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -94,12 +94,12 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'Third Title',
-            image: './path/to/image/source.png',
+            image: '',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-58.54195, -34.71600],
-                zoom: 4,
-                pitch: 0,
+                center: [-59.19000, -5.93000],
+                zoom: 4.11,
+                pitch: 60,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
