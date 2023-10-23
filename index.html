@@ -287,13 +287,13 @@ if (config.inset) {
     style: 'mapbox://styles/convidado/clk7s4tsl02tu01p71yt9hnjt', //hosted style id
     center: config.chapters[-59.19000, -5.93000].location.center,
     // Hardcode above center value if you want insetMap to be static.
-    zoom: 4.11, // starting zoom
+    zoom: 4, // starting zoom
     hash: false,
     interactive: false,
     attributionControl: false,
     //Future: Once official mapbox-gl-js has globe view enabled,
     //insetmap can be a globe with the following parameter.
-    //projection: 'globe'
+    projection: 'mercator'
   });
 }
 
