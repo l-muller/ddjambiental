@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/convidado/clk7s4tsl02tu01p71yt9hnjt',
     accessToken: 'pk.eyJ1IjoiY29udmlkYWRvIiwiYSI6ImNsbzF2b3JzcTFleGsybHFlMDlvMDQ3MTUifQ.rV5nhTFJ7-jTS3nZx_Ov0A',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -24,7 +24,7 @@ var config = {
             description: 'Test Chapter 1',
             location: {
                 center: [-59.19000, -5.93000],
-                zoom: 3.99,
+                zoom: 4.11,
                 pitch: 60,
                 bearing: 0
             },
@@ -32,17 +32,17 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'states-legal-amazon',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'states-legal-amazon',
+                    opacity: 1,
+                    duration: 5000
+                }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'states-legal-amazon',
+                    opacity: 1,
+                }
             ]
         },
         {
