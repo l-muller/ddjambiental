@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/mapbox/dark-v11',
+    style: 'mapbox://styles/convidado/clk7s4tsl02tu01p71yt9hnjt',
     accessToken: 'pk.eyJ1IjoiY29udmlkYWRvIiwiYSI6ImNsbzF2b3JzcTFleGsybHFlMDlvMDQ3MTUifQ.rV5nhTFJ7-jTS3nZx_Ov0A',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -7,13 +7,13 @@ var config = {
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
-    theme: 'dark',
+    theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Sítios arqueológicos na rota do desmatamento ma Amazônia Legal',
     subtitle: '71% dos sítios arqueológicos estão em áreas florestais desmatadas',
-    byline: 'By a Lisiane Müller',
-    footer: 'Source: Create using <a href="https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-arqueologico/cadastro-de-sitios-arqueologicos" target="_blank">Cadastro Nacional de Sítios Arqueológicos | IPHAN | Gov.br</a> template.',
+    byline: 'By Lisiane Müller',
+    footer: 'Source: IPhan, INPE and MAPBOX Template',
     chapters: [
         {
             id: 'slug-style-id',
