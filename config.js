@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/convidado/clo2gxps0000601qvc4r80src',
-    accessToken: 'sk.eyJ1IjoiY29udmlkYWRvIiwiYSI6ImNsbjZoYmp2ODBkYWkybG8xNmFzMmlyb3YifQ.KVhBazY7cPKThY_KrJ9UXQ',
+    accessToken: 'sk.eyJ1IjoiY29udmlkYWRvIiwiYSI6ImNsbzJpZW5tZzB4ZzEya3JzMHB1M2tkd3EifQ.t3vyTXOJb88VIKPnZJa5_g',
     showMarkers: false,
     markerColor: '#3FB1CE',
     projection: 'mercator',
